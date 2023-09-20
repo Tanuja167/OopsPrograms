@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F6F0D1D-FE2B-4C44-ACCC-9FDD918A2365}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OopsPrograms</RootNamespace>
+    <AssemblyName>OopsPrograms</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>OopsPrograms.Abstractclass</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstract1.cs" />
+    <Compile Include="Abstractclass.cs" />
+    <Compile Include="ArrayOfObj.cs" />
+    <Compile Include="Assign5Inheritance.cs" />
+    <Compile Include="Assign6.cs" />
+    <Compile Include="Assign6Aug8.cs" />
+    <Compile Include="Assignment12string.cs" />
+    <Compile Include="Assignment5Aug8.cs" />
+    <Compile Include="baseuse.cs" />
+    <Compile Include="Calculate.cs" />
+    <Compile Include="ClassAndObject\Bank.cs" />
+    <Compile Include="ClassAndObject\baseconstructor.cs" />
+    <Compile Include="ClassAndObject\BOOK.cs" />
+    <Compile Include="ClassAndObject\BOOK2.cs" />
+    <Compile Include="ClassAndObject\Employee.cs" />
+    <Compile Include="ClassAndObject\Student.cs" />
+    <Compile Include="Collection\Arraylist.cs" />
+    <Compile Include="Collection\Assign1.cs" />
+    <Compile Include="Collection\Assign2.cs" />
+    <Compile Include="Collection\Assign3.cs" />
+    <Compile Include="Collection\Assign4.cs" />
+    <Compile Include="Collection\Assign6.cs" />
+    <Compile Include="Collection\Assign6Arraylist.cs" />
+    <Compile Include="Collection\generichashset.cs" />
+    <Compile Include="Collection\genericIcompare.cs" />
+    <Compile Include="Collection\Hashtable1.cs" />
+    <Compile Include="Collection\Icomparable1.cs" />
+    <Compile Include="Collection\Ienumerable1.cs" />
+    <Compile Include="Collection\Nongen.cs" />
+    <Compile Include="Collection\NongenDict.cs" />
+    <Compile Include="Collection\Queue11.cs" />
+    <Compile Include="Collection\SortedList1.cs" />
+    <Compile Include="Collection\Stack11.cs" />
+    <Compile Include="ConstructorAndMethod\Bank.cs" />
+    <Compile Include="ConstructorAndMethod\BankA6.cs" />
+    <Compile Include="ConstructorAndMethod\MethodAss8.cs" />
+    <Compile Include="ConstructorAndMethod\ProductPro.cs" />
+    <Compile Include="ConstructorAndMethod\staticconstruct.cs" />
+    <Compile Include="ConstructorAndMethod\StudentA1.cs" />
+    <Compile Include="ConstructorAndMethod\Studentass7.cs" />
+    <Compile Include="ConstructorAndMethod\StudentAssign2.cs" />
+    <Compile Include="ConstructorAndMethod\StudentAssignment.cs" />
+    <Compile Include="Date.cs" />
+    <Compile Include="DefaultParameter.cs" />
+    <Compile Include="Employee2.cs" />
+    <Compile Include="ExceptionPro\AgeExcep11.cs" />
+    <Compile Include="ExceptionPro\Assign2.cs" />
+    <Compile Include="ExceptionPro\Assign5.cs" />
+    <Compile Include="ExceptionPro\Assignment1.cs" />
+    <Compile Include="ExceptionPro\Assignment3.cs" />
+    <Compile Include="ExceptionPro\Cusompro.cs" />
+    <Compile Include="ExceptionPro\customExcep.cs" />
+    <Compile Include="ExceptionPro\DelegateAddition.cs" />
+    <Compile Include="ExceptionPro\Delegates1.cs" />
+    <Compile Include="ExceptionPro\HomeCustom.cs" />
+    <Compile Include="ExceptionPro\StudentDelegates.cs" />
+    <Compile Include="ExceptionPro\Trycatch1.cs" />
+    <Compile Include="ExplicitInterface.cs" />
+    <Compile Include="HomeWork\AbstractAssigh.cs" />
+    <Compile Include="HomeWork\Assi11Aug8.cs" />
+    <Compile Include="HomeWork\Assi9Aug8.cs" />
+    <Compile Include="HomeWork\Assign10Aug8.cs" />
+    <Compile Include="HomeWork\CompanyAssignment.cs" />
+    <Compile Include="HomeWork\Cube.cs" />
+    <Compile Include="HomeWork\FindMax.cs" />
+    <Compile Include="HomeWork\InterfaceAssi.cs" />
+    <Compile Include="HomeWork\MethodCall.cs" />
+    <Compile Include="HomeWork\NewCar.cs" />
+    <Compile Include="HomeWork\Oveeriding_abstract.cs" />
+    <Compile Include="HomeWork\OverloadAssi.cs" />
+    <Compile Include="HomeWork\Overriding.cs" />
+    <Compile Include="HomeWork\removeduplicatelist.cs" />
+    <Compile Include="HomeWork\Static.cs" />
+    <Compile Include="HomeWork\StaticAll.cs" />
+    <Compile Include="HomeWork\StaticUse.cs" />
+    <Compile Include="Inheritance.cs" />
+    <Compile Include="Inheritance1.cs" />
+    <Compile Include="InterfaceAssign6.cs" />
+    <Compile Include="InterFaceAssignIce.cs" />
+    <Compile Include="InterfaceDemo.cs" />
+    <Compile Include="InterfaceHome.cs" />
+    <Compile Include="ListAssign.cs" />
+    <Compile Include="LogicAssign14.cs" />
+    <Compile Include="Mock.cs" />
+    <Compile Include="Mok.cs" />
+    <Compile Include="Movie.cs" />
+    <Compile Include="PartialClass.cs" />
+    <Compile Include="PolyAssign.cs" />
+    <Compile Include="Practise22.cs" />
+    <Compile Include="Prime.cs" />
+    <Compile Include="Prime1to10.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="Productnongene.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="refKeyword.cs" />
+    <Compile Include="String1\Assign1.cs" />
+    <Compile Include="String1\Assign10ReverseString.cs" />
+    <Compile Include="String1\Assign11RevWord.cs" />
+    <Compile Include="String1\Assign13AlphaDigitSpecialchar.cs" />
+    <Compile Include="String1\Assign16Anagram.cs" />
+    <Compile Include="String1\Assign2.cs" />
+    <Compile Include="String1\Assign20mail.cs" />
+    <Compile Include="String1\assign22Namesindesending.cs" />
+    <Compile Include="String1\assign3.cs" />
+    <Compile Include="String1\Assign4.cs" />
+    <Compile Include="String1\Assign5.cs" />
+    <Compile Include="String1\Assign8.cs" />
+    <Compile Include="String1\Assign9VowelsAndConst.cs" />
+    <Compile Include="String1\Assignment6.cs" />
+    <Compile Include="String1\Asssign12HightFre.cs" />
+    <Compile Include="String1\duplicateword.cs" />
+    <Compile Include="String1\findsubstring.cs" />
+    <Compile Include="String1\first.cs" />
+    <Compile Include="String1\frquenself.cs" />
+    <Compile Include="String1\India1.cs" />
+    <Compile Include="String1\LongestWord.cs" />
+    <Compile Include="String1\separatecharfromstring.cs" />
+    <Compile Include="String1\StringBuilder11.cs" />
+    <Compile Include="String1\StringBuilder22.cs" />
+    <Compile Include="String1\stringlength.cs" />
+    <Compile Include="String1\SumofDigit.cs" />
+    <Compile Include="String1\toggle.cs" />
+    <Compile Include="Student.cs" />
+    <Compile Include="Student2.cs" />
+    <Compile Include="Student3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
