@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>OopsPrograms.Abstractclass</StartupObject>
+    <StartupObject>OopsPrograms.ExceptionPro.Event1</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
@@ -103,6 +103,8 @@
     <Compile Include="ExceptionPro\customExcep.cs" />
     <Compile Include="ExceptionPro\DelegateAddition.cs" />
     <Compile Include="ExceptionPro\Delegates1.cs" />
+    <Compile Include="ExceptionPro\Event1.cs" />
+    <Compile Include="ExceptionPro\Events.cs" />
     <Compile Include="ExceptionPro\HomeCustom.cs" />
     <Compile Include="ExceptionPro\StudentDelegates.cs" />
     <Compile Include="ExceptionPro\Trycatch1.cs" />
@@ -174,7 +176,7 @@
     <Compile Include="String1\toggle.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Student2.cs" />
-    <Compile Include="Student3.cs" />
+    <Compile Include="PropertyStudent3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

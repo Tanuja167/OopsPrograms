@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OopsPrograms
 {
-    public class Student3
+    public class PropertyStudent3
     {
         private int rollno;
         private string name;

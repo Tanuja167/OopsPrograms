@@ -15,7 +15,7 @@ namespace OopsPrograms
         {
             employee e=new employee();
             e.print();
-            Manager manager = new Manager();
+            Managerr manager = new Managerr();
             manager.print();
             Student1 s = new Student1();
             s.print();
@@ -33,7 +33,7 @@ namespace OopsPrograms
             Console.WriteLine("Employee class");
         }
     }
-    public class Manager: Iprintable1
+    public class Managerr: Iprintable1
     {
         public void print()
         {

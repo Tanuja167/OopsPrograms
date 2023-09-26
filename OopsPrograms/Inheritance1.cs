@@ -29,6 +29,7 @@ namespace OopsPrograms
             this.address = address;
             this.aadhr_no = aadhr_no;
         }
+    }
         public class Patient : person
         {
             protected string BG;
@@ -47,5 +48,5 @@ namespace OopsPrograms
 
             }
         }
-    }
+    
 }

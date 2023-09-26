@@ -11,32 +11,32 @@ namespace OopsPrograms
     {
         static void Main(string[] args)
         {
-            /*Manager m = new Manager(1000, 5000, "Tanuja");
+            Manager m = new Manager(1000, 5000, "Tanuja");
             m.CalculateSalary();
-            m.display();*/
-            Employee1 e=new Employee1(2000,"XYZ");
-            e.CalculateSalary();
-            e.display();
+            m.display();
+            /* Employee1 e=new Employee1(2000,"XYZ");
+             e.CalculateSalary();
+             e.display();*/
 
-         
+
 
 
         }
     }
     public class Employee1
     {
-        
-        protected string name;
-        protected double salary, hra, pf, da, ta, gross;
 
-        public Employee1(double salary, string name) 
+        public string name;
+        public double salary, hra, pf, da, ta, gross;
+
+        public Employee1(double salary, string name)
         {
             this.salary = salary;
             this.name = name;
-            
+
 
         }
-        public virtual void  CalculateSalary()
+        public virtual void CalculateSalary()
         {
             hra = salary * 0.40;
             da = salary * 0.20;
@@ -49,6 +49,7 @@ namespace OopsPrograms
         {
             Console.WriteLine("Gross  Salary  :" + gross + "Name: " + name);
         }
+    }
 
         public class Manager: Employee1
         {
@@ -74,4 +75,4 @@ namespace OopsPrograms
             }
         }
     }
-}
+

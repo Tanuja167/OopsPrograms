@@ -13,6 +13,7 @@ namespace OopsPrograms.ClassAndObject
         {
             Employee0 e= new Employee0();
             e.Accept(01, "Alisha", "COMP", 50000.00);
+            e.CalSal();
             Console.WriteLine(e.Show());
         }
     }

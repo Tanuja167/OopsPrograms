@@ -57,7 +57,7 @@ namespace OopsPrograms.ClassAndObject
         }
         public void Display()
         {
-            Console.WriteLine($"Account number: {ac_no}, Name: {name}, BAL: {bal}");
+            Console.WriteLine($"Account number: {ac_no}, Name: {name}, BAL: {bal}");    
         }
     }
 }

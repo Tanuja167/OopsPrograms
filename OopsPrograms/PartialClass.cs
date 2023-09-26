@@ -22,6 +22,12 @@ namespace OopsPrograms
     public partial class Cal
     {
         int a,b;
+
+        /*public  Cal(int a, int b)
+        {
+            this.a = a;
+            this.b = b;
+        }*/
          public int Add(int a, int b)
         {
             this.a= a; 

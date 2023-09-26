@@ -18,10 +18,12 @@ namespace OopsPrograms
     }
     public abstract class shape
     {
-        int a; int b;
+        int a; 
+        int b;
         public shape(int a, int b)
         {
-            this.a = a; this.b = b; 
+            this.a = a; 
+            this.b = b; 
         }
        
         public abstract void Area();

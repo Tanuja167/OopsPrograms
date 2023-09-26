@@ -116,18 +116,18 @@ namespace OopsPrograms
 
 
 
-            /* Student3 st=new Student3();
+            PropertyStudent3 st=new PropertyStudent3();
              st.RollNo = 1;                            //Property intializer
              st.Name = "Tanuja";
              st.Percentage =  78.00;
              Console.WriteLine(st.print());
 
              //Object Intializer
-             Student3 s=new Student3() { RollNo = 2, Name = "Alisha", Percentage = 80.00};
+             PropertyStudent3 s=new PropertyStudent3() { RollNo = 2, Name = "Alisha", Percentage = 80.00};
              Console.WriteLine(s.print());
              Console.WriteLine(  );
 
-             Product2 p2 = new Product2();
+             /*Product2 p2 = new Product2();
              p2.Code = 101;                   //property intializer
              p2.Name = "Pen";
              p2.Price = 10.00;
@@ -135,8 +135,8 @@ namespace OopsPrograms
 
              Product2 pr2 = new Product2() { Code = 102, Name = "pencil", Price = 20.00 };
              Console.WriteLine(pr2.print());    //object intializer 
-
-            Movie m = new Movie(1, "ABC", 200, 14);
+*/
+           /* Movie m = new Movie(1, "ABC", 200, 14);
             
             m.Available_Tickets();
             Console.WriteLine(m.Display());

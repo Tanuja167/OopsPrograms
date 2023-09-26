@@ -14,6 +14,7 @@ namespace OopsPrograms
             r.Area();
             Console.WriteLine(r.Display());
             Console.WriteLine(r.Print());
+            Console.WriteLine(r.Draw("tanu"));
         }
     }
      public abstract class Shape
